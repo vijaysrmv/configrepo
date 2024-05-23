@@ -1,0 +1,5 @@
+spring:
+  application:
+    name: configapplicationnew
+  datasource:
+    url: jdbc:mysql://localhost:3306/indonesia?createDatabaseIfNotExist=true
