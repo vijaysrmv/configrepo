@@ -1,5 +1,10 @@
 spring:
-  application:
-    name: configapplicationnew
   datasource:
     url: jdbc:mysql://localhost:3306/indonesia?createDatabaseIfNotExist=true
+    driver-class-name: com.mysql.cj.jdbc.Driver
+    username: root
+    password: Vinay456@
+  
+  jpa:
+    hibernate:
+      ddl-auto: update
